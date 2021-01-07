@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.s4 {
+    width: 33.33333333333%;
+}
+
+.s8 {
+    width: 66.66666666666%;
+}
+
+.s12 {
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.space-around {
+    justify-content: space-around;
+}
+
+
+/* Typo */
+
+.white-text {
+    color: white;
+}
+
+
+/* Buttons */
+
+.btn {
+    padding: .8rem;
+}
+
+.btn.hoverable {
+    transition: all 0.2s ease;
+}
+
+
+/* Margins */
+
+.margined-top {
+    margin-top: 20px;
+}
